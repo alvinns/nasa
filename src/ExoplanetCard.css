@@ -1,0 +1,94 @@
+.exoplanet-card {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.like-button.liked {
+  color: red;
+}
+
+.planet-name {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.planet-info {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.planet-image-container {
+  position: relative;
+}
+
+.planet-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.image-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.visit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.details-view {
+  padding: 20px;
+}
+
+.planet-details {
+  margin-top: 20px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
